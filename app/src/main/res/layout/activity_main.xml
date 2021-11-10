@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/buttonLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout" />
+
+    <Button
+        android:id="@+id/buttonRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout" />
+
+    <Button
+        android:id="@+id/buttonTableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Table Layout" />
+
+    <Button
+        android:id="@+id/buttonScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scroll View" />
+</LinearLayout>

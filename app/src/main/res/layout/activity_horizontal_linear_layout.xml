@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".linear.HorizontalLinearLayoutActivity">
+
+    <TextView
+        android:id="@+id/labelUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff0066"
+        android:text="User Name"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ediName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="125dip"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:textStyle="bold" />
+</LinearLayout>
